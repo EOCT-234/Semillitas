@@ -8,8 +8,6 @@ editor: visual
 
 <ul>
 
-<li><a href="etiquetas.html">Etiquetas</a></li>
-
-<li><a href="semillas.html">Semillas</a></li>
+<li><a href="etiquetas.html">Portada</a></li>
 
 </ul>
