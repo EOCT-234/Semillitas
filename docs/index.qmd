@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Grupo_1: Lechuga"
 format: html
 editor: visual
 ---
