@@ -1,0 +1,13 @@
+---
+title: "index"
+format: html
+editor: visual
+---
+
+<h1>Producción y Tecnología de Semillas</h1>
+
+<ul>
+
+<li><a href="etiquetas.html">Portada</a></li>
+
+</ul>
