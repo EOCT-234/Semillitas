@@ -1,0 +1,9 @@
+---
+title: "_quarto"
+format: html
+editor: visual
+---
+
+project: type: website output-dir: docs
+
+website: title: "Producción y Tecnología de Semillas"
