@@ -8,6 +8,8 @@ editor: visual
 
 <ul>
 
-<li><a href="portada.html">portada</a></li>
+<li><a href="portada.html">Portada</a></li>
+
+<li><a href="introduccion.html">Introduccion</a></li>
 
 </ul>

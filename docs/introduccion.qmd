@@ -1,0 +1,11 @@
+---
+title: "Introduccion"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    number-sections: true
+---
+
+The printing of code (only output is displayed).
