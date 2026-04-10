@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Mi Primera Página Web"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: about.qmd
+        text: Sobre mí
+      - href: contacto.qmd
+        text: Contacto
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true

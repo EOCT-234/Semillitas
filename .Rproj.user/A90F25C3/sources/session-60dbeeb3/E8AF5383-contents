@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Semillitas"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Portada
+      - href: introduccion.qmd
+        text: Introducción
+
+format:
+  html:
+    theme: cosmo
+    toc: true

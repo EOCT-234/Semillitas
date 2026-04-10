@@ -1,0 +1,7 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Mi Primera Página Web\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: minty\n  title: 'Grupo_1: Lechuga'\n  editor: visual\n  \n"]
+[1,"WARN: Unable to resolve link target: about.qmd\nWARN: Unable to resolve link target: contacto.qmd\n"]
+[1,"Output created: _site\\index.html\n\nTerminating existing preview server....DONE\n\nPreparing to preview\n"]
+[1,"\nWatching files for changes\nBrowse at http://localhost:7346/\nListening on http://127.0.0.1:7346/\n"]
+[1,"WARN: Unable to resolve link target: about.qmd\nWARN: Unable to resolve link target: contacto.qmd\n"]
+[1,"GET: /\n"]
