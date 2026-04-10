@@ -1,0 +1,102 @@
+---
+title: "index"
+format: html
+editor: visual
+---
+
+\<!DOCTYPE html\>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Mi Página Web</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header class="top-bar">
+
+::: logo
+LOGO
+:::
+
+<nav class="menu">
+
+<button>INTRODUCCIÓN</button>
+
+<button>MATERIALES</button>
+
+<button>METODOLOGÍA</button>
+
+<button>RESULTADOS</button>
+
+<button>CONCLUSIONES</button>
+
+<button>BIBLIOGRAFÍA</button>
+
+<button>MATERIAL COMPLEMENTARIO</button>
+
+</nav>
+
+</header>
+
+:::::::::: container
+<aside class="sidebar">
+
+<h3>INFORMACIÓN</h3>
+
+::: box
+UNIVERSIDAD, FACULTAD,<br>ESCUELA PROFESIONAL
+:::
+
+::: box
+CURSO<br>DOCENTE
+:::
+
+::: box
+INTEGRANTES DEL GRUPO
+:::
+
+<h3>MATERIAL COMPLEMENTARIO</h3>
+
+::: box
+BASE DE DATOS
+:::
+
+::: box
+FOTOS
+:::
+
+::: box
+PPT
+:::
+
+</aside>
+
+<main class="content">
+
+::: paper
+```         
+  <p>Informe completo con todos los subtítulos de arriba.</p>
+  <p>Introducción</p>
+  <p>Materiales</p>
+  <p>Metodología</p>
+  <p>Resultados</p>
+  <p>Conclusiones</p>
+  <p>Bibliografía</p>
+</div>
+```
+
+</main>
+:::
+
+</body>
+
+</html>
+::::::::::
