@@ -1,4 +1,4 @@
----
+d---
 title: "experimental labels"
 format:
   html:
@@ -26,7 +26,7 @@ source("https://inkaverse.com/setup.r")
 ## Field-book
 
 ```{r}
-gs <- "https://docs.google.com/spreadsheets/d/1rz0qtk2Oa6SWDx_xGc8hN561P2Tc3ESDNSMXVnvJT3M/edit?gid=191359475#gid=191359475" %>% 
+gs <- "https://docs.google.com/spreadsheets/d/1Sxy4JepCZi6GmSfbx_8dnRSQKgNnWK7tIPVrl8GGGIg/edit?gid=1969364831#gid=1969364831" %>% 
   as_sheets_id()
 
 fb <- gs %>% 
@@ -42,42 +42,43 @@ huito_fonts(font)
 
 ```{r}
 label <- fb %>%
-  label_layout(size = c(5.2, 10)
+  label_layout(size = c(4, 5)
                , border_color = "forestgreen"
-               , border_width = 1.5
+               , border_width = 1
                ) %>%
   include_image(
     value = "https://doctoradofisica.uni.edu.pe/wp-content/uploads/2024/01/d123d3.webp"
-    , size = c(3, 3)
-    , position = c(1.6, 9.5)
+    , size = c(1.5, 1.5)
+    , position = c(0.8, 4.7)
     ) %>% 
   include_image(
     value = "https://huito.inkaverse.com/img/scale.pdf"
     , size = c(5, 1)
-    , position = c(2.6, 8.5)
+    , position = c(2.5, 4.)
     ) %>% 
   include_barcode(
     value = "qrcode"
-    , size = c(5, 5)
-    , position = c(2.6, 5.5)
+    , size = c(2.1, 2.1)
+    , position = c(2., 2.4)
     ) %>% 
   include_text(value = "plots"
-               , position = c(4.4, 9.5)
-               , size = 16
+               , position = c(3.2, 4.7)
+               , size = 10
                , color = "black"
                , font = font[3]
                ) %>% 
-  include_text(value = "LUZ"
-               , position = c(2.6, 2.6)
-               , size = 16
+  include_text(value = "Luz"
+               , position = c(2, 1.1)
+               , size = 10
                , color = "blue"
                , font = font[1]
                , prefix = "Luz: "
-               ) %>%
+               ) %>% 
+ 
   include_image(
     value = "https://huito.inkaverse.com/img/scale.pdf"
     , size = c(5, 1)
-    , position = c(2.6, 1.5)
+    , position = c(2.5, 0.4)
     # , opts = 'image_convert(type = "Grayscale")'
     ) 
 
@@ -89,8 +90,8 @@ label %>% label_print(mode = "preview")
 
 label %>% 
   label_print(mode = "complete"
-              , filename = "design/labels"
-              , paper = c(29.7, 21)
+              # , filename = "design/labels"
+              , paper = c(21, 29.7)
               , units = "cm"
               )
 ```
