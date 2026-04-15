@@ -1,7 +1,0 @@
----
-title: "introducción"
-format: html
-editor: visual
----
-
-El propósito de disponer de fuentes valiosas de genes que coadyuven a la solución de los problemas actuales y futuros que limitan la producción, justifica el acopio y enriquecimiento de los bancos de germoplasma con la meta de lograr la soberanía alimentaria nacional ^[(Tavitas,\ 2016)](https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-73802023000400461#B17)^. Así, desde 1993 en que fue establecido el banco nacional de germoplasma de arroz (BNGA) del Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarias (INIFAP) a la fecha, éste se ha consolidado como una institución con actividades específicas de investigación sobre los recursos genéticos del arroz, las cuales en forma ortodoxa se ajustan a los lineamientos internacionales sobre la materia, que incluye el acopio, caracterización, conservación, documentación, intercambio y distribución de germoplasma.
